@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MCCatchRedPacketController.h
 //  MCCatchRedPacket
 //
 //  Created by MC on 16/10/29.
@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "MCCatchView.h"
-@interface ViewController : UIViewController
+
+
+@interface MCCatchRedPacketController : UIViewController
+
+@property(nonatomic,weak)id<MCCatchViewDelegate>delegate;
+
 
 
 @end
-
